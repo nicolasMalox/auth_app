@@ -1,16 +1,10 @@
-# flutter_popcorn_app
+Flutter Popcorn App
 
-A new Flutter project.
+A Flutter application built with Clean Architecture, leveraging BLoC for state management. This project includes advanced security features such as encryption and biometric authentication for key management.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+	•	Clean Architecture: Ensures modularity, scalability, and maintainability.
+	•	State Management with BLoC: Manages app state efficiently and predictably.
+	•	Secure Key Storage: Implements encryption and biometric authentication (Face ID/Touch ID) for key protection.
+	•	GraphQL Integration: Communicates with a backend using GraphQL for authentication and data handling.
+	•	Passkey Authentication: Supports passkey-based login using ECDSA (P-256) cryptographic signatures.
